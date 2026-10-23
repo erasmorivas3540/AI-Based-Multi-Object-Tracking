@@ -1,0 +1,35 @@
+# Recovery-event and labelling protocol (plan section 16).
+# DRAFT until the end of Week 2. Values marked PILOT are chosen from pilot data,
+# then this file is frozen and its checksum recorded in docs/decisions_log.md.
+# Every method is scored with the same file.
+version: 1
+
+observability:
+  vis_threshold: 0.5          # visible fraction needed to count as observable      PILOT
+  min_box_side_px: 6          # smaller visible boxes are not observable            PILOT
+  persistence_frames: 3       # a state change must last >= 3 frames (0.15 s)      PILOT
+                              # to count; shorter flicker is absorbed
+
+events:
+  pre_visible_s: 1.0          # observable for at least this long before the gap
+  max_gap_s: 2.0              # primary events: gap no longer than this
+  require_in_fov_during_gap: true   # leaving the field of view is a different event type
+  restore_within_s: 0.5       # old identity must be back within this after reappearance
+  hold_s: 0.5                 # ... and stay correct for this long afterwards
+  boundary_rule: exclude      # events without full pre/post windows inside the clip are excluded
+  post_visible_rule: exclude  # target must stay observable for restore+hold after reappearing
+
+scoring:
+  match_iou: 0.5              # tracker box vs. truth visible box, one-to-one per frame
+  allow_unmatched_frames: true   # a missed frame inside the window is not a failure
+  strict_wrong_id: true       # any frame in [reappear, restore+hold] where the target
+                              # carries a different id, or the old id sits on another
+                              # target, fails the event
+  pre_id_rule: last_matched_in_pre_window   # id the tracker held on the target before the gap
+
+benchmark_export:
+  # Visible-object MOT benchmark (TrackEval). Objects below vis_threshold or the
+  # size limit but still partly visible are exported as distractors (class 8),
+  # so trackers are neither rewarded nor penalised for them. Fully hidden objects
+  # are omitted. Predicted-only tracker states are scored separately.
+  distractor_class: 8

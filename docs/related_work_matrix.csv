@@ -1,0 +1,8 @@
+paper,year,venue_or_status,link,code_link,code_commit_checked,task,sensors_and_platform,detector_inputs,motion_model,camera_motion_handling,active_association_cost,lost_track_lifetime,recovery_decision_inputs,recovery_learned_or_rule,recovery_calibrated,uncertainty_treatment,benchmarks,compute_and_fps,stated_limitations,overlap_with_my_claim,notes
+ByteTrack,2022,ECCV 2022,https://arxiv.org/abs/2110.06864,https://github.com/ifzhang/ByteTrack,,,,,,,,,,,,,,,,,
+BoT-SORT,2022,arXiv,https://arxiv.org/abs/2206.14651,https://github.com/NirAharon/BoT-SORT,,,,,,,,,,,,,,,,,
+DroneMOT,2024,ICRA 2024,https://arxiv.org/abs/2407.09051,,,,,,,,,,,,,,,,,,
+TrackTrack,2025,CVPR 2025,https://openaccess.thecvf.com/content/CVPR2025/html/Shim_Focusing_on_Tracks_for_Online_Multi-Object_Tracking_CVPR_2025_paper.html,https://github.com/kamkyu94/TrackTrack,,,,,,,,,,,,,,,,,
+DMTrack,2025,preprint (verify),https://arxiv.org/abs/2510.17860,,,,,,,,,,,,,,,,,,
+DynUAV,2026,verify status,https://arxiv.org/abs/2603.05970,,,,,,,,,,,,,,,,,,
+JitTrack,2026,preprint (verify),https://arxiv.org/abs/2608.10485,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,2600 @@
+{
+ "design_version": 1,
+ "config_checksum": "4d8ae91dd4e13a14",
+ "flights": [
+  {
+   "flight_id": "dev_uav_low_occ00_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 266964579,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_uav_low_occ00_s1",
+   "partition": "dev",
+   "split": "val",
+   "seed": 3375773233,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ00_s2",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1041699199,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ00_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3662364563,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_uav_low_occ00_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2173455089,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_low_occ00_s5",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2216201752,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_low_occ00_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1021618857,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_low_occ00_s1",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1925708072,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_low_occ00_s2",
+   "partition": "dev",
+   "split": "val",
+   "seed": 3590496264,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_low_occ00_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 4268690600,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_low_occ00_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1174446538,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_low_occ00_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 2824715046,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ10_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 121948917,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_low_occ10_s1",
+   "partition": "dev",
+   "split": "val",
+   "seed": 761435849,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ10_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1708248445,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_low_occ10_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2046035751,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_low_occ10_s4",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1962401831,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ10_s5",
+   "partition": "dev",
+   "split": "train",
+   "seed": 4156876987,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_low_occ10_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1576601031,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_low_occ10_s1",
+   "partition": "dev",
+   "split": "train",
+   "seed": 12030980,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_low_occ10_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 329364194,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_low_occ10_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3152468454,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_low_occ10_s4",
+   "partition": "dev",
+   "split": "val",
+   "seed": 3094239539,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_low_occ10_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 4118051940,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ20_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2429951392,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_low_occ20_s1",
+   "partition": "dev",
+   "split": "val",
+   "seed": 3994786847,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_low_occ20_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2894771281,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_uav_low_occ20_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3592446540,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_low_occ20_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1640092840,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_low_occ20_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1048444897,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_low_occ20_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3104893222,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_low_occ20_s1",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2896487692,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_low_occ20_s2",
+   "partition": "dev",
+   "split": "val",
+   "seed": 3053341309,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_low_occ20_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3806026475,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_low_occ20_s4",
+   "partition": "dev",
+   "split": "val",
+   "seed": 624446029,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_low_occ20_s5",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2861256715,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ00_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2439731109,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ00_s1",
+   "partition": "dev",
+   "split": "val",
+   "seed": 2208367065,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ00_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1607947396,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ00_s3",
+   "partition": "dev",
+   "split": "val",
+   "seed": 2753696290,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ00_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2463614858,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ00_s5",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2930365401,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ00_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1306273875,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ00_s1",
+   "partition": "dev",
+   "split": "train",
+   "seed": 797240073,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ00_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1591328065,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ00_s3",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1370883043,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ00_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3506642267,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ00_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 987564145,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ10_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1691722013,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ10_s1",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1918070129,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ10_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1525406166,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ10_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3177458334,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ10_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3918506816,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ10_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1035015103,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ10_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2961890851,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ10_s1",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1607754215,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ10_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2380615243,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ10_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3765576896,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ10_s4",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1154192314,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ10_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1366786929,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ20_s0",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2850649694,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ20_s1",
+   "partition": "dev",
+   "split": "val",
+   "seed": 423134489,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ20_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 2268011099,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ20_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3082467539,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ20_s4",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1036882681,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_uav_turning_occ20_s5",
+   "partition": "dev",
+   "split": "val",
+   "seed": 1741964973,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ20_s0",
+   "partition": "dev",
+   "split": "val",
+   "seed": 3224095641,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ20_s1",
+   "partition": "dev",
+   "split": "train",
+   "seed": 576583173,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L0"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ20_s2",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3127932789,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ20_s3",
+   "partition": "dev",
+   "split": "train",
+   "seed": 1957932707,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L2"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ20_s4",
+   "partition": "dev",
+   "split": "val",
+   "seed": 491068754,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L3"
+  },
+  {
+   "flight_id": "dev_ground_turning_occ20_s5",
+   "partition": "dev",
+   "split": "train",
+   "seed": 3394998659,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L1"
+  },
+  {
+   "flight_id": "test_uav_low_occ00_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 169535927,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_uav_low_occ00_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 1599379403,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_low_occ00_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 3006726070,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_low_occ00_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 213814244,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_ground_low_occ00_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 3652032185,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_low_occ00_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 3990553178,
+   "camera_motion": "low",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_low_occ10_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 3622288921,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_uav_low_occ10_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 270354268,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_low_occ10_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 1395084570,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_low_occ10_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 1289757410,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_ground_low_occ10_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 3139912895,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_low_occ10_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 3055568317,
+   "camera_motion": "low",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_low_occ20_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 2181712075,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_uav_low_occ20_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 1103858080,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_low_occ20_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 629045994,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_low_occ20_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 2602364193,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_ground_low_occ20_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 3762480829,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_low_occ20_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 4259683951,
+   "camera_motion": "low",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_turning_occ00_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 294268509,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_uav_turning_occ00_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 2818106561,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_turning_occ00_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 2940831755,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_turning_occ00_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 2351008619,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_ground_turning_occ00_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 2500724763,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_turning_occ00_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 2119288752,
+   "camera_motion": "turning",
+   "occlusion_s": 0.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_turning_occ10_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 1017136158,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_uav_turning_occ10_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 3761610973,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_turning_occ10_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 3734856784,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_turning_occ10_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 1386311702,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_ground_turning_occ10_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 1927334245,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_turning_occ10_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 1379485513,
+   "camera_motion": "turning",
+   "occlusion_s": 1.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_turning_occ20_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 2735934787,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_uav_turning_occ20_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 2551832003,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_uav_turning_occ20_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 1197638967,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "uav",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_turning_occ20_s0",
+   "partition": "test",
+   "split": "test",
+   "seed": 3615221916,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L5"
+  },
+  {
+   "flight_id": "test_ground_turning_occ20_s1",
+   "partition": "test",
+   "split": "test",
+   "seed": 3500306099,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L4"
+  },
+  {
+   "flight_id": "test_ground_turning_occ20_s2",
+   "partition": "test",
+   "split": "test",
+   "seed": 2803293506,
+   "camera_motion": "turning",
+   "occlusion_s": 2.0,
+   "target_group": "ground",
+   "layout": "L5"
+  }
+ ],
+ "clips": [
+  {
+   "clip_id": "dev_uav_low_occ00_s0_blurnone",
+   "flight_id": "dev_uav_low_occ00_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s0_blurmotion",
+   "flight_id": "dev_uav_low_occ00_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s1_blurnone",
+   "flight_id": "dev_uav_low_occ00_s1",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s1_blurmotion",
+   "flight_id": "dev_uav_low_occ00_s1",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s2_blurnone",
+   "flight_id": "dev_uav_low_occ00_s2",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s2_blurmotion",
+   "flight_id": "dev_uav_low_occ00_s2",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s3_blurnone",
+   "flight_id": "dev_uav_low_occ00_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s3_blurmotion",
+   "flight_id": "dev_uav_low_occ00_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s4_blurnone",
+   "flight_id": "dev_uav_low_occ00_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s4_blurmotion",
+   "flight_id": "dev_uav_low_occ00_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s5_blurnone",
+   "flight_id": "dev_uav_low_occ00_s5",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ00_s5_blurmotion",
+   "flight_id": "dev_uav_low_occ00_s5",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s0_blurnone",
+   "flight_id": "dev_ground_low_occ00_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s0_blurmotion",
+   "flight_id": "dev_ground_low_occ00_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s1_blurnone",
+   "flight_id": "dev_ground_low_occ00_s1",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s1_blurmotion",
+   "flight_id": "dev_ground_low_occ00_s1",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s2_blurnone",
+   "flight_id": "dev_ground_low_occ00_s2",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s2_blurmotion",
+   "flight_id": "dev_ground_low_occ00_s2",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s3_blurnone",
+   "flight_id": "dev_ground_low_occ00_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s3_blurmotion",
+   "flight_id": "dev_ground_low_occ00_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s4_blurnone",
+   "flight_id": "dev_ground_low_occ00_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s4_blurmotion",
+   "flight_id": "dev_ground_low_occ00_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s5_blurnone",
+   "flight_id": "dev_ground_low_occ00_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ00_s5_blurmotion",
+   "flight_id": "dev_ground_low_occ00_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s0_blurnone",
+   "flight_id": "dev_uav_low_occ10_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s0_blurmotion",
+   "flight_id": "dev_uav_low_occ10_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s1_blurnone",
+   "flight_id": "dev_uav_low_occ10_s1",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s1_blurmotion",
+   "flight_id": "dev_uav_low_occ10_s1",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s2_blurnone",
+   "flight_id": "dev_uav_low_occ10_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s2_blurmotion",
+   "flight_id": "dev_uav_low_occ10_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s3_blurnone",
+   "flight_id": "dev_uav_low_occ10_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s3_blurmotion",
+   "flight_id": "dev_uav_low_occ10_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s4_blurnone",
+   "flight_id": "dev_uav_low_occ10_s4",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s4_blurmotion",
+   "flight_id": "dev_uav_low_occ10_s4",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s5_blurnone",
+   "flight_id": "dev_uav_low_occ10_s5",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ10_s5_blurmotion",
+   "flight_id": "dev_uav_low_occ10_s5",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s0_blurnone",
+   "flight_id": "dev_ground_low_occ10_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s0_blurmotion",
+   "flight_id": "dev_ground_low_occ10_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s1_blurnone",
+   "flight_id": "dev_ground_low_occ10_s1",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s1_blurmotion",
+   "flight_id": "dev_ground_low_occ10_s1",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s2_blurnone",
+   "flight_id": "dev_ground_low_occ10_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s2_blurmotion",
+   "flight_id": "dev_ground_low_occ10_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s3_blurnone",
+   "flight_id": "dev_ground_low_occ10_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s3_blurmotion",
+   "flight_id": "dev_ground_low_occ10_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s4_blurnone",
+   "flight_id": "dev_ground_low_occ10_s4",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s4_blurmotion",
+   "flight_id": "dev_ground_low_occ10_s4",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s5_blurnone",
+   "flight_id": "dev_ground_low_occ10_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ10_s5_blurmotion",
+   "flight_id": "dev_ground_low_occ10_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s0_blurnone",
+   "flight_id": "dev_uav_low_occ20_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s0_blurmotion",
+   "flight_id": "dev_uav_low_occ20_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s1_blurnone",
+   "flight_id": "dev_uav_low_occ20_s1",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s1_blurmotion",
+   "flight_id": "dev_uav_low_occ20_s1",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s2_blurnone",
+   "flight_id": "dev_uav_low_occ20_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s2_blurmotion",
+   "flight_id": "dev_uav_low_occ20_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s3_blurnone",
+   "flight_id": "dev_uav_low_occ20_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s3_blurmotion",
+   "flight_id": "dev_uav_low_occ20_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s4_blurnone",
+   "flight_id": "dev_uav_low_occ20_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s4_blurmotion",
+   "flight_id": "dev_uav_low_occ20_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s5_blurnone",
+   "flight_id": "dev_uav_low_occ20_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_low_occ20_s5_blurmotion",
+   "flight_id": "dev_uav_low_occ20_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s0_blurnone",
+   "flight_id": "dev_ground_low_occ20_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s0_blurmotion",
+   "flight_id": "dev_ground_low_occ20_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s1_blurnone",
+   "flight_id": "dev_ground_low_occ20_s1",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s1_blurmotion",
+   "flight_id": "dev_ground_low_occ20_s1",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s2_blurnone",
+   "flight_id": "dev_ground_low_occ20_s2",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s2_blurmotion",
+   "flight_id": "dev_ground_low_occ20_s2",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s3_blurnone",
+   "flight_id": "dev_ground_low_occ20_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s3_blurmotion",
+   "flight_id": "dev_ground_low_occ20_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s4_blurnone",
+   "flight_id": "dev_ground_low_occ20_s4",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s4_blurmotion",
+   "flight_id": "dev_ground_low_occ20_s4",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s5_blurnone",
+   "flight_id": "dev_ground_low_occ20_s5",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_low_occ20_s5_blurmotion",
+   "flight_id": "dev_ground_low_occ20_s5",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s0_blurnone",
+   "flight_id": "dev_uav_turning_occ00_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s0_blurmotion",
+   "flight_id": "dev_uav_turning_occ00_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s1_blurnone",
+   "flight_id": "dev_uav_turning_occ00_s1",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s1_blurmotion",
+   "flight_id": "dev_uav_turning_occ00_s1",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s2_blurnone",
+   "flight_id": "dev_uav_turning_occ00_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s2_blurmotion",
+   "flight_id": "dev_uav_turning_occ00_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s3_blurnone",
+   "flight_id": "dev_uav_turning_occ00_s3",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s3_blurmotion",
+   "flight_id": "dev_uav_turning_occ00_s3",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s4_blurnone",
+   "flight_id": "dev_uav_turning_occ00_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s4_blurmotion",
+   "flight_id": "dev_uav_turning_occ00_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s5_blurnone",
+   "flight_id": "dev_uav_turning_occ00_s5",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ00_s5_blurmotion",
+   "flight_id": "dev_uav_turning_occ00_s5",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s0_blurnone",
+   "flight_id": "dev_ground_turning_occ00_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s0_blurmotion",
+   "flight_id": "dev_ground_turning_occ00_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s1_blurnone",
+   "flight_id": "dev_ground_turning_occ00_s1",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s1_blurmotion",
+   "flight_id": "dev_ground_turning_occ00_s1",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s2_blurnone",
+   "flight_id": "dev_ground_turning_occ00_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s2_blurmotion",
+   "flight_id": "dev_ground_turning_occ00_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s3_blurnone",
+   "flight_id": "dev_ground_turning_occ00_s3",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s3_blurmotion",
+   "flight_id": "dev_ground_turning_occ00_s3",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s4_blurnone",
+   "flight_id": "dev_ground_turning_occ00_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s4_blurmotion",
+   "flight_id": "dev_ground_turning_occ00_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s5_blurnone",
+   "flight_id": "dev_ground_turning_occ00_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ00_s5_blurmotion",
+   "flight_id": "dev_ground_turning_occ00_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s0_blurnone",
+   "flight_id": "dev_uav_turning_occ10_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s0_blurmotion",
+   "flight_id": "dev_uav_turning_occ10_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s1_blurnone",
+   "flight_id": "dev_uav_turning_occ10_s1",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s1_blurmotion",
+   "flight_id": "dev_uav_turning_occ10_s1",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s2_blurnone",
+   "flight_id": "dev_uav_turning_occ10_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s2_blurmotion",
+   "flight_id": "dev_uav_turning_occ10_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s3_blurnone",
+   "flight_id": "dev_uav_turning_occ10_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s3_blurmotion",
+   "flight_id": "dev_uav_turning_occ10_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s4_blurnone",
+   "flight_id": "dev_uav_turning_occ10_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s4_blurmotion",
+   "flight_id": "dev_uav_turning_occ10_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s5_blurnone",
+   "flight_id": "dev_uav_turning_occ10_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ10_s5_blurmotion",
+   "flight_id": "dev_uav_turning_occ10_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s0_blurnone",
+   "flight_id": "dev_ground_turning_occ10_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s0_blurmotion",
+   "flight_id": "dev_ground_turning_occ10_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s1_blurnone",
+   "flight_id": "dev_ground_turning_occ10_s1",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s1_blurmotion",
+   "flight_id": "dev_ground_turning_occ10_s1",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s2_blurnone",
+   "flight_id": "dev_ground_turning_occ10_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s2_blurmotion",
+   "flight_id": "dev_ground_turning_occ10_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s3_blurnone",
+   "flight_id": "dev_ground_turning_occ10_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s3_blurmotion",
+   "flight_id": "dev_ground_turning_occ10_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s4_blurnone",
+   "flight_id": "dev_ground_turning_occ10_s4",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s4_blurmotion",
+   "flight_id": "dev_ground_turning_occ10_s4",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s5_blurnone",
+   "flight_id": "dev_ground_turning_occ10_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ10_s5_blurmotion",
+   "flight_id": "dev_ground_turning_occ10_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s0_blurnone",
+   "flight_id": "dev_uav_turning_occ20_s0",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s0_blurmotion",
+   "flight_id": "dev_uav_turning_occ20_s0",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s1_blurnone",
+   "flight_id": "dev_uav_turning_occ20_s1",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s1_blurmotion",
+   "flight_id": "dev_uav_turning_occ20_s1",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s2_blurnone",
+   "flight_id": "dev_uav_turning_occ20_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s2_blurmotion",
+   "flight_id": "dev_uav_turning_occ20_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s3_blurnone",
+   "flight_id": "dev_uav_turning_occ20_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s3_blurmotion",
+   "flight_id": "dev_uav_turning_occ20_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s4_blurnone",
+   "flight_id": "dev_uav_turning_occ20_s4",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s4_blurmotion",
+   "flight_id": "dev_uav_turning_occ20_s4",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s5_blurnone",
+   "flight_id": "dev_uav_turning_occ20_s5",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_uav_turning_occ20_s5_blurmotion",
+   "flight_id": "dev_uav_turning_occ20_s5",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s0_blurnone",
+   "flight_id": "dev_ground_turning_occ20_s0",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s0_blurmotion",
+   "flight_id": "dev_ground_turning_occ20_s0",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s1_blurnone",
+   "flight_id": "dev_ground_turning_occ20_s1",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s1_blurmotion",
+   "flight_id": "dev_ground_turning_occ20_s1",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s2_blurnone",
+   "flight_id": "dev_ground_turning_occ20_s2",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s2_blurmotion",
+   "flight_id": "dev_ground_turning_occ20_s2",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s3_blurnone",
+   "flight_id": "dev_ground_turning_occ20_s3",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s3_blurmotion",
+   "flight_id": "dev_ground_turning_occ20_s3",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s4_blurnone",
+   "flight_id": "dev_ground_turning_occ20_s4",
+   "split": "val",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s4_blurmotion",
+   "flight_id": "dev_ground_turning_occ20_s4",
+   "split": "val",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s5_blurnone",
+   "flight_id": "dev_ground_turning_occ20_s5",
+   "split": "train",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "dev_ground_turning_occ20_s5_blurmotion",
+   "flight_id": "dev_ground_turning_occ20_s5",
+   "split": "train",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ00_s0_blurnone",
+   "flight_id": "test_uav_low_occ00_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ00_s0_blurmotion",
+   "flight_id": "test_uav_low_occ00_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ00_s1_blurnone",
+   "flight_id": "test_uav_low_occ00_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ00_s1_blurmotion",
+   "flight_id": "test_uav_low_occ00_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ00_s2_blurnone",
+   "flight_id": "test_uav_low_occ00_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ00_s2_blurmotion",
+   "flight_id": "test_uav_low_occ00_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ00_s0_blurnone",
+   "flight_id": "test_ground_low_occ00_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ00_s0_blurmotion",
+   "flight_id": "test_ground_low_occ00_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ00_s1_blurnone",
+   "flight_id": "test_ground_low_occ00_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ00_s1_blurmotion",
+   "flight_id": "test_ground_low_occ00_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ00_s2_blurnone",
+   "flight_id": "test_ground_low_occ00_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ00_s2_blurmotion",
+   "flight_id": "test_ground_low_occ00_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ10_s0_blurnone",
+   "flight_id": "test_uav_low_occ10_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ10_s0_blurmotion",
+   "flight_id": "test_uav_low_occ10_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ10_s1_blurnone",
+   "flight_id": "test_uav_low_occ10_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ10_s1_blurmotion",
+   "flight_id": "test_uav_low_occ10_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ10_s2_blurnone",
+   "flight_id": "test_uav_low_occ10_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ10_s2_blurmotion",
+   "flight_id": "test_uav_low_occ10_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ10_s0_blurnone",
+   "flight_id": "test_ground_low_occ10_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ10_s0_blurmotion",
+   "flight_id": "test_ground_low_occ10_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ10_s1_blurnone",
+   "flight_id": "test_ground_low_occ10_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ10_s1_blurmotion",
+   "flight_id": "test_ground_low_occ10_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ10_s2_blurnone",
+   "flight_id": "test_ground_low_occ10_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ10_s2_blurmotion",
+   "flight_id": "test_ground_low_occ10_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ20_s0_blurnone",
+   "flight_id": "test_uav_low_occ20_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ20_s0_blurmotion",
+   "flight_id": "test_uav_low_occ20_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ20_s1_blurnone",
+   "flight_id": "test_uav_low_occ20_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ20_s1_blurmotion",
+   "flight_id": "test_uav_low_occ20_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_low_occ20_s2_blurnone",
+   "flight_id": "test_uav_low_occ20_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_low_occ20_s2_blurmotion",
+   "flight_id": "test_uav_low_occ20_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ20_s0_blurnone",
+   "flight_id": "test_ground_low_occ20_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ20_s0_blurmotion",
+   "flight_id": "test_ground_low_occ20_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ20_s1_blurnone",
+   "flight_id": "test_ground_low_occ20_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ20_s1_blurmotion",
+   "flight_id": "test_ground_low_occ20_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_low_occ20_s2_blurnone",
+   "flight_id": "test_ground_low_occ20_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_low_occ20_s2_blurmotion",
+   "flight_id": "test_ground_low_occ20_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ00_s0_blurnone",
+   "flight_id": "test_uav_turning_occ00_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ00_s0_blurmotion",
+   "flight_id": "test_uav_turning_occ00_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ00_s1_blurnone",
+   "flight_id": "test_uav_turning_occ00_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ00_s1_blurmotion",
+   "flight_id": "test_uav_turning_occ00_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ00_s2_blurnone",
+   "flight_id": "test_uav_turning_occ00_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ00_s2_blurmotion",
+   "flight_id": "test_uav_turning_occ00_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ00_s0_blurnone",
+   "flight_id": "test_ground_turning_occ00_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ00_s0_blurmotion",
+   "flight_id": "test_ground_turning_occ00_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ00_s1_blurnone",
+   "flight_id": "test_ground_turning_occ00_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ00_s1_blurmotion",
+   "flight_id": "test_ground_turning_occ00_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ00_s2_blurnone",
+   "flight_id": "test_ground_turning_occ00_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ00_s2_blurmotion",
+   "flight_id": "test_ground_turning_occ00_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ10_s0_blurnone",
+   "flight_id": "test_uav_turning_occ10_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ10_s0_blurmotion",
+   "flight_id": "test_uav_turning_occ10_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ10_s1_blurnone",
+   "flight_id": "test_uav_turning_occ10_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ10_s1_blurmotion",
+   "flight_id": "test_uav_turning_occ10_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ10_s2_blurnone",
+   "flight_id": "test_uav_turning_occ10_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ10_s2_blurmotion",
+   "flight_id": "test_uav_turning_occ10_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ10_s0_blurnone",
+   "flight_id": "test_ground_turning_occ10_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ10_s0_blurmotion",
+   "flight_id": "test_ground_turning_occ10_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ10_s1_blurnone",
+   "flight_id": "test_ground_turning_occ10_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ10_s1_blurmotion",
+   "flight_id": "test_ground_turning_occ10_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ10_s2_blurnone",
+   "flight_id": "test_ground_turning_occ10_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ10_s2_blurmotion",
+   "flight_id": "test_ground_turning_occ10_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ20_s0_blurnone",
+   "flight_id": "test_uav_turning_occ20_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ20_s0_blurmotion",
+   "flight_id": "test_uav_turning_occ20_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ20_s1_blurnone",
+   "flight_id": "test_uav_turning_occ20_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ20_s1_blurmotion",
+   "flight_id": "test_uav_turning_occ20_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_uav_turning_occ20_s2_blurnone",
+   "flight_id": "test_uav_turning_occ20_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_uav_turning_occ20_s2_blurmotion",
+   "flight_id": "test_uav_turning_occ20_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ20_s0_blurnone",
+   "flight_id": "test_ground_turning_occ20_s0",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ20_s0_blurmotion",
+   "flight_id": "test_ground_turning_occ20_s0",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ20_s1_blurnone",
+   "flight_id": "test_ground_turning_occ20_s1",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ20_s1_blurmotion",
+   "flight_id": "test_ground_turning_occ20_s1",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  },
+  {
+   "clip_id": "test_ground_turning_occ20_s2_blurnone",
+   "flight_id": "test_ground_turning_occ20_s2",
+   "split": "test",
+   "blur": "none",
+   "blur_kernel_px": 0
+  },
+  {
+   "clip_id": "test_ground_turning_occ20_s2_blurmotion",
+   "flight_id": "test_ground_turning_occ20_s2",
+   "split": "test",
+   "blur": "motion",
+   "blur_kernel_px": 9
+  }
+ ]
+}

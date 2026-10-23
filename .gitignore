@@ -1,0 +1,37 @@
+# --- Data and large artifacts (never commit) ---
+data/*
+!data/README.md
+*.bag
+*.db3
+*.mcap
+rosbags/
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+runs/
+detection_cache/
+outputs/
+*.mp4
+*.avi
+
+# --- ROS 2 / colcon build products ---
+build/
+install/
+log/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+*.swp

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tracking_evaluation</name>
+  <version>0.1.0</version>
+  <description>Recovery-event protocol, TrackEval adapter and label audit</description>
+  <maintainer email="erasmorivas3540@users.noreply.github.com">Erasmo Rivas</maintainer>
+  <license>TBD</license>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>python3-shapely</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

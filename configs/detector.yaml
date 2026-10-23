@@ -1,0 +1,59 @@
+# Detector data, training and caching settings (plan section 17).
+# Week 3: choose init weights and imgsz on VALIDATION data, then freeze.
+version: 1
+
+classes:            # project class map; the YOLO class index is the list position
+  - uav
+  - ground
+
+labels:
+  # A target becomes a training box only if it is clearly visible. Hidden
+  # targets are never labelled (plan section 16).
+  min_vis: 0.3
+  min_box_side_px: 4
+  frame_stride: 4          # adjacent frames are near-duplicates; take every 4th
+  blur_variants: [none, motion]
+
+train:
+  init_weights: yolo11s.pt  # COCO-pretrained; has no UAV class -> fine-tune   DECIDE
+  imgsz: 1280               # UAVs are ~15-45 px at 1280; at 640 they halve    DECIDE on val
+  epochs: 60
+  patience: 15              # early stopping on val mAP
+  batch: 8
+  seed: 0
+  deterministic: true
+  workers: 4
+  # Augmentation ranges kept close to the simulated domain. Blur is NOT added
+  # here: the paired blur condition already supplies it.
+  augment:
+    hsv_h: 0.01
+    hsv_s: 0.3
+    hsv_v: 0.3
+    degrees: 0.0
+    translate: 0.1
+    scale: 0.3
+    fliplr: 0.5
+    flipud: 0.0
+    mosaic: 1.0
+    mixup: 0.0
+    close_mosaic: 10
+  search:                   # the whole tuning budget; report all runs
+    imgsz: [960, 1280]
+    init_weights: [yolo11s.pt]
+
+evaluation:
+  match_iou: 0.5
+  loc_failure_iou: 0.1      # best IoU in [0.1, 0.5) counts as a localisation failure
+  size_bins_px: [0, 16, 32, 64, 100000]   # sqrt(visible box area)
+  conf: 0.25                # operating confidence for the precision/recall table
+
+cache:
+  # "raw": near-pre-NMS candidates (very low confidence, almost no suppression).
+  # Ultralytics does not expose the head output before NMS; IoU 0.95 keeps all
+  # but near-identical boxes. Documented approximation, see docs/evaluation_protocol.md.
+  raw_conf: 0.01
+  raw_iou: 0.95
+  raw_max_det: 1000
+  # "final": what trackers consume by default; derived from raw by class-wise NMS.
+  final_conf: 0.05
+  final_iou: 0.7

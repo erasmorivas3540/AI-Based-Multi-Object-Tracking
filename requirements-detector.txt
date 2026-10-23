@@ -1,0 +1,4 @@
+# Detector training / caching (GPU machine). Install PyTorch for your CUDA first
+# (https://pytorch.org), then this file. Record exact versions in docs/versions.md.
+-r requirements-eval.txt
+ultralytics

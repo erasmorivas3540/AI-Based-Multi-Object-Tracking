@@ -1,0 +1,10 @@
+# Analysis / evaluation environment (no ROS, no GPU).
+# Verified 2026-10-23 with Python 3.13: numpy 2.5.4, scipy 1.18.1.
+numpy
+scipy
+shapely>=2.0
+pyyaml
+opencv-python-headless
+pytest
+# TrackEval pinned to a commit; mot_io.py restores the NumPy aliases it needs.
+trackeval @ git+https://github.com/JonathonLuiten/TrackEval.git@12c8791b303e0a0b50f753af204249e622d0281a
