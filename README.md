@@ -48,7 +48,7 @@ src/                  ROS 2 workspace (ament_python), importable without ROS
   tracking_detector/    label rules, letterbox/NMS/matching, detection cache format
   tracking_core/        track state, association, recovery interface      (Week 4)
   tracking_interfaces/  ROS message definitions                          (Week 5)
-notebooks/            demo_weeks1-3.ipynb: quick tour of everything built so far
+notebooks/            demo_weeks1-3.ipynb (quick tour), digital_twin.ipynb (3D twin + camera view animation)
 tests/                pytest suite (44 tests), incl. known-answer evaluation checks
 data/                 NOT tracked: frames, truth, scenarios (see data/README.md)
 outputs/, runs/       NOT tracked: audits, exports, caches, evaluations, detector runs
